@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.main-top{
+    height: 650px;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+}
+
+.navigation-top{
+    width: 80%;
+    margin: 0 auto;
+    list-style-type: none;
+    height: 80px;
+    line-height: 80px;
+    position: relative;
+    padding-top: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+li > img{
+    line-height: 100%;
+    vertical-align: middle;
+    padding-right: 330px;
+}
+
+.navigation-tool{
+    padding-left: 40px;
+    padding-right: 5px;
+}
+
+#login-button{
+    position: absolute;
+    right: 300px;
+    color: black;
+    border-radius: 30px;
+    background-color: white;
+    line-height: 30px;
+    bottom: 5px;
+    right: 200px;
+    padding-top: 10px;
+    padding-right: 25px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+}
+
+nav li{
+    display: inline-block;
+}
+
+#jumbotron{
+    height: 570px;
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    vertical-align: middle;
+    padding-top: 130px;
+}
+
+header h1{
+    font-size: 70px;
+}
+
+header p{
+    font-size: 20px;
+    line-height: 30px;
+    padding-top: 40px;
+    font-weight: bold;
+}
+
+.button{
+    display: inline-block;
+    margin: 35px;
+    padding: 15px;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#btn-white.button{
+    background-color: white;
+    color: black;
+}
+
+#btn-black.button{
+    background-color: black;
+}
