@@ -58,7 +58,7 @@ nav li{
 
 #jumbotron{
     height: 570px;
-    width: 40%;
+    width: 813px;
     margin: 0 auto;
     text-align: center;
     color: white;
@@ -97,12 +97,13 @@ header p{
 
 .container{
     margin: 0 auto;
-    width: 70%;
+    width: 1423px;
     height: 700px;
+    padding-top: 120px;
 }
 
 #image-sector-1{
-    margin-top: 150px;
+    width: 60%;
 }
 
 .float-left{
@@ -116,5 +117,17 @@ header p{
 }
 
 #content-sector-1{
-    width: 40%;
+    width: 400px;
+    padding-top: 30px;
+}
+
+section span{
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+section p{
+    font-size: 20px;
+    padding-top: 20px;
 }
