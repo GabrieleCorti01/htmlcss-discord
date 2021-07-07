@@ -103,11 +103,15 @@ header p{
 }
 
 #image-sector-1{
-    width: 60%;
+    width: 853px;
 }
 
 .float-left{
     float: left;
+}
+
+.float-right{
+    float: right;
 }
 
 .clearfix::after{
@@ -130,4 +134,18 @@ section span{
 section p{
     font-size: 20px;
     padding-top: 20px;
+}
+
+.section-grey{
+    background-color: rgb(236, 236, 236);
+}
+
+#content-sector-2{
+    width: 600px;
+    padding-top: 30px;
+    padding-left: 200px;
+}
+
+#image-sector-2{
+    width: 678px;
 }
