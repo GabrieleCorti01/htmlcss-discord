@@ -94,3 +94,27 @@ header p{
 #btn-black.button{
     background-color: black;
 }
+
+.container{
+    margin: 0 auto;
+    width: 70%;
+    height: 700px;
+}
+
+#image-sector-1{
+    margin-top: 150px;
+}
+
+.float-left{
+    float: left;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#content-sector-1{
+    width: 40%;
+}
